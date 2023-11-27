@@ -42,14 +42,12 @@ form.addEventListener("submit", e=>{
 })
 
 //Registrar Ususario
-registro.addEventListener('click', (e)=>{
-    var email = document.getElementById('email').value
-    var password = document.getElementById('password').value
-
-    createUserWithEmailAndPassword(firebaseAuth, email, password).then(cred =>{
-    //  actualizarperfil(firebaseAuth.createUser,{
-    //     displayName: nombre.value
-    //  })   
+registro.addEventListener('click', async()=>{
+    console.log(email.value,pass.value);
+    const {user} = await createUserWithEmailAndPassword(firebaseAuth, email.value, pass.value)
+    const res = await actualizarperfil(firebaseAuth.currentUser, {
+        displayName: nombre.value
     })
+    console.log(res)
 })
 

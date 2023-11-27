@@ -1,6 +1,6 @@
    // Import the functions you need from the SDKs you need
    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.6.0/firebase-app.js";
-   import { getAuth, updateProfile} from 'https://www.gstatic.com/firebasejs/10.6.0/firebase-auth.js'
+   import { getAuth, updateProfile, onAuthStateChanged} from 'https://www.gstatic.com/firebasejs/10.6.0/firebase-auth.js'
 
    // TODO: Add SDKs for Firebase products that you want to use
    // https://firebase.google.com/docs/web/setup#available-libraries
@@ -19,3 +19,4 @@
    export const app = initializeApp(firebaseConfig);
    export const firebaseAuth = getAuth(app);
    export const actualizarperfil=updateProfile;
+   export const evaludarSesion = onAuthStateChanged
