@@ -1,0 +1,59 @@
+
+
+body{
+    background-image: linear-gradient(to bottom, rgb(27, 41, 85) 80%, #131E40);
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+.titulo{
+    margin-left: 1em;
+    margin-top: 0.5em;
+    font-size: 6em;
+    font-family: Zen Dots;
+    color: white;
+    font-weight: bold;
+}
+
+.inputText{
+   font-size: 1em;
+   width: 50%;
+   height: 50%;
+   margin: 1em;
+   color: white;
+}
+
+h3{
+    font-size: 2em;
+}
+
+.Botones{ 
+    justify-content: center;
+    background-color: rgb(50, 36, 241); 
+    border-radius: 1.5em; 
+    border: 0;
+    color:white;  
+    height: 3.5em; 
+    width: 15em;
+}
+
+.container{
+    padding: 3.1em;
+}
+.inputbotones{
+    width: 40%;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+@media(max-width: 500px){
+  .container{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+}

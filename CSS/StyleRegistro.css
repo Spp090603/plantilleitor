@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Mogra&family=Pacifico&family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mogra&family=Pacifico&family=Plus+Jakarta+Sans&family=Zen+Dots&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(../img/fondo.png );
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 60px;
+}
+
+.registration-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    font-family: Zen Dots; 
+    
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #6294ff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0051ff;
+}
+
+.warning{
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color: rgb(255, 69, 69);
+    padding-top: 20px;
+}

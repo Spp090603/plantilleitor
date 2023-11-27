@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Mogra&family=Pacifico&family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mogra&family=Pacifico&family=Plus+Jakarta+Sans&family=Zen+Dots&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.logoMenu{
+    width: 80px;
+    height: auto;
+    border-radius: 15%;
+}
+
+/***** Menú *****/
+.nav{
+    list-style: inside;
+    list-style:  disc;
+    color: white;
+}
+
+.nav-link{
+    list-style: circle;
+    color: white;
+    padding-left: 1px;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+}
+
+header{
+    margin: 1em;
+}
+
+/***** Footer *****/
+footer{
+    margin-top: 5vw;
+    width: 110%;
+    background-color: #131E40;
+}
+
+.footerMenu ul{
+    list-style: none;
+    font-size: 1.2em;
+}
+
+.circle {
+    width: 60px;
+    height: 60px;
+    background-color: #0f1530   ; /* Color de fondo del círculo */
+    border-radius: 50%; /* Hace que el div sea un círculo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copy{
+    color: white;
+    margin-left: 1.5em;
+}
+
+.list{
+    list-style: none;
+    margin: 0px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+@media (max-width: 768px) {
+    .logoMenu {
+        display: none;
+    }
+  }
+  

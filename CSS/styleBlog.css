@@ -1,0 +1,43 @@
+
+body{
+    background-image: linear-gradient(to bottom, rgb(27, 41, 85) 80%, #131E40);
+    height: 100%;
+    width: 100%;
+}
+
+h1{
+    font-size: 5em;
+    font-family: Zen Dots;
+    color: white;
+    font-weight: bold;
+}
+h2{
+    color: rgb(41, 41, 240);
+}
+
+.hijos{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-self: center;
+    width: 100%;
+}
+
+.hijo{
+    color: white;
+    background-color: rgba(46, 50, 65, 0.781);
+    font-family: Plus Jakarta Sans;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 15px;
+}
+
+.row{
+    padding: 1em;
+    padding-top: 1.5em;
+}
+
+.col-md-6 img{
+    margin: 0.5;
+    border-radius: 15px;
+}

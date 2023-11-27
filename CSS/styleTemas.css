@@ -1,0 +1,95 @@
+body{
+  background-image: linear-gradient(to bottom, rgb(27, 41, 85) 80%, #131E40);
+  overflow-x: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+h1{
+  font-size: 7vw;
+  color: white;
+  font-family: Zen Dots;
+}
+
+h2{
+  font-size: 4vw;
+  font-weight: bold;
+  color: white;
+  font-family: Plus Jakarta Sans;
+}
+
+.col-md-6.tema {
+    position: relative;
+    width: 47%; 
+    padding: 0;
+    margin: 1em;
+  }
+
+  .col-md-6.form {
+    position: relative;
+    width: 47%; 
+    padding: 0;
+    margin: 1em;
+  }
+  
+  .imgTema {
+    width: 100%; 
+    height: auto;
+    display: block;
+  }
+  
+  .textoSpan {
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 10px;
+    font-size: 1.3em;
+  }
+
+  .subir{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    background-color: #065991;
+    border-radius: 15px;
+  }
+
+  .caja{
+    display: flex;
+    justify-content: end;
+    position: relative;
+  }
+
+  @media (min-width: 1200px) {
+    .col-md-6.form {
+      display: flex;
+      justify-content: end;
+      align-self: center;
+    }
+  }
+
+  @media (max-width: 999px) {
+    h1{
+      font-size: 5em;
+    }
+
+    .col-md-6.tema {
+      width: 600px; 
+    }
+
+    .col-md-6.form {
+      width: 600px; 
+    }
+  }
+
+  @media (max-width: 580px) {
+    .col-md-6.tema {
+      width: 380px; 
+    }
+
+    .col-md-6.form {
+      width: 380px; 
+    }
+  }

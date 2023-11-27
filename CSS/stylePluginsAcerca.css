@@ -1,0 +1,84 @@
+
+body{
+  background-image: linear-gradient(to bottom, rgb(27, 41, 85) 80%, #131E40);
+  overflow-x: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+h1{
+  font-size: 7vw;
+  color: white;
+  font-family: Zen Dots;
+}
+
+h2{
+  font-size: 1.5vw;
+  font-weight: bold;
+  color: white;
+  font-family: Plus Jakarta Sans;
+}
+
+.texto{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.texto p{
+  color: white;
+}
+
+.cajaValo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2em;
+  color: white;
+  background-color: #101010;
+  width: 40%;
+  margin: 4em;
+}
+
+.valo img{
+  width: 60px;
+  height: 60px;
+}
+
+.comentario{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  margin: 1em;
+}
+
+.comentario img{
+  width: 100px;
+  height: 80px;
+}
+
+.user{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  margin: 1em;
+}
+
+.user img{
+  width: 130px;
+  height: 100px;
+}
+
+
+button {
+  align-self: center;
+  background-color: #3498db; 
+  color: #fff; 
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  width: 30%;
+}

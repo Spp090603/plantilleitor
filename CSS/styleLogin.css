@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Mogra&family=Pacifico&family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mogra&family=Pacifico&family=Plus+Jakarta+Sans&family=Zen+Dots&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgb(27, 41, 85) 80%, #131E40);
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin: 0;
+  
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: aliceblue;
+    width: 50%;
+}
+
+.login h1{
+    align-self: center;
+    font-size: 3em;
+    font-family: Zen Dots; 
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ input{
+    align-self: center;
+    width: 90%;
+    padding: 1em;
+    margin-top: 1em;
+    border-radius: 15px;
+    background-color: rgb(187, 187, 187);
+}
+
+::placeholder{
+    color: black;
+    font-weight: bold;
+}
+
+p{
+    margin-top: 1em;
+    align-self: center;
+}
+
+.imgBG{
+    background-image: url(../img/Login.png);
+    width: 50%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.botonInicio{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    background-color: rgb(202, 101, 5); 
+    border-radius: 1.5em; 
+    border: 0;
+    color:white;  
+    height: 3.5em; 
+    width: 15em;
+}   
